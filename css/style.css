@@ -386,3 +386,25 @@ article p {
 .btn-form:hover {
     background-color: #105476;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: -0.7rem;
+    padding: 2rem 0;
+    background-color: #F6F6F6;
+}
+
+footer h4 {
+    color: #622363;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+footer p {
+    color: #505050;
+    line-height: 1.2rem;
+}
