@@ -189,6 +189,9 @@ section h2 {
 /*CSS Nossos Colaboradores*/
 .sectionColaboradores {
     padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-cards {
@@ -200,6 +203,7 @@ section h2 {
 
 .titulo-colaboradores {
     color: #236687;
+    text-align: center;
 }
 
 .imagem-perfil {
