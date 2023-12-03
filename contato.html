@@ -8,6 +8,7 @@
   <title>Contato - Creche e Berçario Criança Feliz</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,35 +32,44 @@
   <div>
     <img width="100%" src="img/contato/bannerContato.png" alt="Imagem banner principal com uma criança sorrindo">
   </div>
-  <section>
-    <h3>Contato</h3>
+  <section class="sectionContato">
     <div>
-      <img src="img/mapa.png">
+      <h2>Contato</h2>
     </div>
-    <div>
+    <div class="sectionMapa">
+      <div class="mapa-background"></div>
+    </div>
+    <div class="sectionForm">
       <!-- Conteúdo da segunda div -->
-      <h3>Fale conosco</h3>
+      <div class="form-header">
+        <h2>Fale conosco</h2>
+      </div>
       <form action="processar_formulario.php" method="post">
-        <label for="nome">Nome completo:</label>
-        <input type="text" id="nome" name="nome" required>
-        <br />
-        <label for="whatsapp">Whatsapp:</label>
-        <input type="tel" id="whatsapp" name="whatsapp" required>
-        <br />
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        <br />
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto" required>
-        <br />
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" required></textarea>
-        <br />
-        <button type="submit">Enviar</button>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="nome">Nome completo:</label>
+          <input class="inputform" type="text" id="nome" name="nome" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="whatsapp">Whatsapp:</label>
+          <input class="inputform" type="tel" id="whatsapp" name="whatsapp" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="email">E-mail:</label>
+          <input class="inputform" type="email" id="email" name="email" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="assunto">Assunto:</label>
+          <input class="inputform" type="text" id="assunto" name="assunto" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="mensagem">Mensagem:</label>
+          <textarea type="text" id="mensagem" name="mensagem" rows="6" required></textarea>
+        </div>
+        <button class="btn-form" type="submit">Enviar</button>
       </form>
     </div>
   </section>
-  <footer style="background-color: #F6F6F6; padding: 20px 0;">
+  <footer class="border-bottom-622363">
     <div class="footer-div">
       <h4><img src="img/logotipo.png"></h4>
     </div>
@@ -77,9 +87,9 @@
     <div class="footer-div">
       <h4>Siga em nossas redes</h4>
       <div class="social-media">
-        <img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin">
-        <img src="img/colaboradores/iconeInsta.png" alt="Instagram">
-        <img src="img/colaboradores/iconeFacebook.png" alt="Facebook">
+        <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+        <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
       </div>
     </div>
   </footer>

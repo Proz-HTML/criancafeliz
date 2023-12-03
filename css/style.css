@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -139,10 +143,16 @@ table {
 
 /*CSS Institucional*/
 .sectionSobre {
-    padding: 5rem;
-    display: flex;
+    padding: 5rem 0;
     background-color: #F6F6F6;
+}
+
+.wrap-sobre {
+    width: 80%;
+    display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 section h2 {
@@ -150,7 +160,6 @@ section h2 {
     font-size: 2.5rem;
     font-weight: 600;
     display: inline-flex;
-    margin-bottom: 2rem;
 }
 
 .border-bottom-622363 {
@@ -159,6 +168,7 @@ section h2 {
 
 .titulo-sobre {
     color: #236687;
+    margin-bottom: 3rem;
 }
 
 .texto-sobre {
@@ -188,22 +198,26 @@ section h2 {
 
 /*CSS Nossos Colaboradores*/
 .sectionColaboradores {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
+    padding: 5rem 0;
     align-items: center;
+}
+
+.wrap-colaboradores {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .container-cards {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 0;
 }
 
 .titulo-colaboradores {
     color: #236687;
-    text-align: center;
 }
 
 .imagem-perfil {
@@ -259,15 +273,19 @@ article p {
 
 /*CSS Nossas Estrutura*/
 .sectionEstrutura {
-    padding: 5rem;
+    padding: 5rem 0;
     background-color: #5DDCE3;
-    display: flex;
-    flex-direction: column;
+}
+
+.wrap-estrutura {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .titulo-estrutura {
     color: #236687;
-    text-align: center;
 }
 
 .border-bottom-622363 {
@@ -282,6 +300,7 @@ article p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 3rem;
 }
 
 .box-imagem {
@@ -300,19 +319,36 @@ article p {
 
 /*CSS Nossos Planos*/
 .sectionPlanos {
-    padding: 5rem;
+    padding: 3rem 0;
     background-color: #FAC500;
+}
+
+.wrap-planos {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
 
+.wrap-box {
+    margin: 0 auto;
+}
+
+.titulo-planos-wrap {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .titulo-planos {
     color: #236687;
+    display: inline-block;
 }
 
 .box-planos {
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
 }
 
 .box-meio-periodo {
@@ -349,7 +385,6 @@ article p {
     text-align: center;
     border-radius: 0.5rem;
     text-transform: uppercase;
-
 }
 
 .cta-planos a {
@@ -369,7 +404,20 @@ article p {
 
 .sectionForm {
     width: 50%;
-    padding: 5rem;
+    padding: 3rem;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mapa-background {
+    background-image: url('../img/mapa.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
 }
 
 .inputform {
@@ -389,26 +437,4 @@ article p {
 
 .btn-form:hover {
     background-color: #105476;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-evenly;
-    margin-top: -0.7rem;
-    padding: 2rem 0;
-    background-color: #F6F6F6;
-}
-
-footer h4 {
-    color: #622363;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
-    margin-bottom: 0.6rem;
-}
-
-footer p {
-    color: #505050;
-    line-height: 1.2rem;
 }

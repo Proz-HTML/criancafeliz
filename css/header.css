@@ -1,10 +1,13 @@
 header {
   background-color: #ffffff;
-  padding: 2rem 5rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
 }
 
 nav ul li {
@@ -13,10 +16,10 @@ nav ul li {
 }
 
 nav ul li a {
-  letter-spacing: 0.1rem;
   color: inherit;
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
 }
 
 .btn-nav {
@@ -31,6 +34,7 @@ nav ul li a {
   border-radius: 3rem;
   font-weight: 700;
   padding: 0.8rem 1.2rem;
+  transition: background-color 500ms ease;
 }
 
 .btn-cta {
