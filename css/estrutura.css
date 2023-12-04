@@ -42,3 +42,235 @@ table {
     border-spacing: 0;
 
 }
+
+/* css estrutura */
+
+.section-estrutura  {
+    text-align: center; 
+    background-color: rgb(244, 242, 240);
+   
+    
+}
+.titulo-nossa-estrutura h2{
+    color: #236687;
+    border-bottom: 0.3rem solid #622363;
+    margin-top: 2.0rem;
+    
+    
+}
+.texto-nossa-estrutura p{
+    text-align: center;
+    margin-left: 4.0rem;
+    margin-right: 4.0rem;
+    font-size: 1.1rem;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7rem;
+    color: #505050;
+}
+
+/* arruma as divs lado a lado */
+.bloco01{
+    display: flex;
+    margin-left: 5.0rem;
+    margin-right: 3.0rem;
+}
+.bloco02{
+    display: flex;
+    margin-left: 5.0rem;
+    margin-right: 3.0rem;
+}
+/* arruma as divs lado a lado */
+
+.div-brinquedoteca{
+    background-color:white;
+    padding-top: 1.0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.8rem;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 3.5rem;
+    width: 40.0rem;
+}
+.div-brinquedoteca img{
+    border-radius: 0.8rem;
+    margin: auto;
+    width: 30.0rem;
+    display: block;
+    padding: 0.7rem;
+    
+}
+.div-brinquedoteca li{
+    color: #236687;
+    padding-block: 0.7rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Nunito;
+}
+.div-brinquedoteca p {
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-block: 0.7rem;
+    font-size: 1.1rem;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7rem;
+    color: #505050;
+}
+
+.div-playground {
+    background-color:white;
+    padding-top: 1.0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.8rem;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 3.5rem;
+    width: 40.0rem;
+}
+.div-playground img{
+    border-radius: 0.8rem;
+    margin: auto;
+    width: 30.0rem;
+    display: block;
+    padding: 0.7rem;
+    
+}
+.div-playground li{
+    color: #236687;
+    padding-block: 0.7rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Nunito;
+}
+.div-playground p {
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-block: 0.7rem;
+    font-size: 1.1rem;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7rem;
+    color: #505050;
+}
+
+.div-bercarios{
+    background-color:white;
+    padding-top: 1.0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.8rem;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 3.5rem;
+    width: 40.0rem;
+}
+.div-bercarios img{
+    border-radius: 0.8rem;
+    margin: auto;
+    width: 30.0rem;
+    display: block;
+    padding: 0.7rem;
+}
+.div-bercarios li{
+    color: #236687;
+    padding-block: 0.7rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Nunito;
+}
+div.div-bercarios p{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-block: 0.7rem;
+    font-size: 1.1rem;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7rem;
+    color: #505050;
+}
+
+.div-parkkids{
+    background-color:white;
+    padding-top: 1.0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.8rem;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 3.5rem;
+    width: 40.0rem;
+}
+.div-parkkids img{
+    border-radius: 0.8rem;
+    margin: auto;
+    width: 30.0rem;
+    display: block;
+    padding: 0.7rem;
+}
+.div-parkkids li{
+    color: #236687;
+    padding-block: 0.7rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Nunito;
+}
+.div-parkkids p{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-block: 0.7rem;
+    font-size: 1.1rem;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7rem;
+    color: #505050;
+}
+
+.banner-verde{
+    display: flex;
+    background-color: rgb(20, 196, 20);
+    justify-content: space-between;
+    align-items: center;
+}
+.banner p{
+    color: aliceblue;
+    font-family: nunito;
+    font-style: inherit;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-block: 0.5rem;
+    margin-block: 1.0rem;
+    margin-left: 9.0rem;
+}
+.botao p{
+    background-color: #622363;
+    color: aliceblue;
+    font-family: nunito;
+    font-style: inherit;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
+    margin-right: 9.0rem;
+    margin-block: 4.0rem;
+    border-radius: 1.5rem;
+}
+
+
+
+
