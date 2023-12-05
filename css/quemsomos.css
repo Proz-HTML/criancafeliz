@@ -1,0 +1,192 @@
+article{
+    line-height: 2rem;
+}
+
+
+ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 6rem
+    
+ }
+
+
+
+ body { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     font-size: 0.9rem;
+     font-family: Arial;
+     top: center;
+
+}
+
+
+p {
+  text-align: left; 
+  font-family: arial;
+  line-height: 1.7rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: none;
+    font-family: arial;
+    justify-content: space-between;
+
+}
+
+
+nav li {
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+
+.titulo-quemsomos h2 {
+    font-family: nunito;
+    font-size: 2.0rem;
+    border-bottom: 0.3rem solid rgb(20, 196, 20);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    color: #236687;
+    text-align: center;
+    
+}
+
+
+texto-inicio-quemsomos p {
+    text-align: justify;
+    margin-left: 4.0rem;
+    margin-right: 4.0rem;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7rem;
+    color: #505050;
+}
+
+
+h3  {
+    font-family: nunito;
+    font-size: 1.3rem;
+    margin-left: 10rem;
+    margin-right: 15rem;
+}
+
+
+
+
+section {
+    font-family: nunito;
+    margin-top: 0.2rem;
+    margin: 0.2rem;
+}
+
+
+
+
+
+
+
+
+.banner-verde {
+display: flex;
+background-color: rgb(20, 196, 20);
+justify-content: right;
+align-items: center;
+text-align: right;
+color:white;
+min-height: 5rem;
+width: 1490px;
+margin-top: 3rem;
+}
+
+
+ button {
+    background-color: #622363;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-right: 25rem;
+    width: 300px;
+    height: 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 4rem 0;
+    background-color: #F6F6F6;
+}
+
+
+
+social-midia {
+    justify-content: space-between;
+    display: flex;
+
+}
+
+
+
+h4 {
+    display: flex;
+    color: #622363 ;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+footer {
+
+    display: flex;
+    color: #622363;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+    justify-content: space-between;
+
+}
+
+
+footer {
+    display: flex;
+    color: #505050;
+    line-height: 1.2rem;
+    justify-content: space-between;
+    width: 1490px;
+    height: 135px;
+    
+    
+}
+
+

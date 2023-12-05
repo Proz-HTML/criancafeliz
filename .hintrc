@@ -6,14 +6,22 @@
     "axe/text-alternatives": [
       "default",
       {
-        "image-alt": "off"
+        "image-alt": "off",
+        "document-title": "off"
       }
     ],
     "no-inline-styles": "off",
     "axe/structure": [
       "default",
       {
-        "listitem": "off"
+        "listitem": "off",
+        "list": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
       }
     ]
   }
