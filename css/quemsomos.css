@@ -1,103 +1,47 @@
-article{
-    line-height: 2rem;
-}
 
-
-ul {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    list-style: none;
-    gap: 6rem
-    
- }
-
-
-
- body { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-     font-size: 0.9rem;
-     font-family: Arial;
-     top: center;
-
-}
-
-
-p {
-  text-align: left; 
-  font-family: arial;
-  line-height: 1.7rem;
-  font-size: 1rem;
-  padding-top: 1rem;
-  margin-right: 10rem;
-  margin-left: 10rem;
-}
-
-
-a {
-    text-decoration: none;
-    font-size: none;
-    font-family: arial;
-    justify-content: space-between;
-
-}
-
-
-nav li {
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-
-
-.titulo-quemsomos h2 {
+.titulo-quemsomos  {
+    margin-left: 22rem;
+    margin-right: 22rem;
     font-family: nunito;
-    font-size: 2.0rem;
-    border-bottom: 0.3rem solid rgb(20, 196, 20);
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-left: 0;
-    margin-right: 0;
-    color: #236687;
+    justify-content: center;
     text-align: center;
-    
+    font-size: 3.0rem;
+    border-bottom: 0.3rem solid rgb(20, 196, 20);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #236687; 
 }
 
 
-texto-inicio-quemsomos p {
+
+.texto-inicio-quemsomos p  {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    line-height: 1.7rem;
     text-align: justify;
-    margin-left: 4.0rem;
-    margin-right: 4.0rem;
+    padding: 1rem;
     font-size: 1.1rem;
     font-family: "Roboto", sans-serif;
-    line-height: 1.7rem;
     color: #505050;
 }
 
-
-h3  {
-    font-family: nunito;
-    font-size: 1.3rem;
+.subtitulo-missao-visao h3  {
+    border-bottom: 0.3rem solid rgb(20, 196, 20);
+    line-height: 1.7rem;
+    text-align: left;
     margin-left: 10rem;
-    margin-right: 15rem;
+    margin-right: 75rem;
+    margin-top: 1rem;
 }
 
-
-
-
-section {
-    font-family: nunito;
-    margin-top: 0.2rem;
-    margin: 0.2rem;
+.texto-missao-visao p {
+text-align: left;
+margin-left: 10rem;
+margin-right: 10rem;
+line-height: 1.7rem;
+font-size: 1.1rem;
 }
-
-
-
-
-
-
 
 
 .banner-verde {
@@ -106,35 +50,54 @@ background-color: rgb(20, 196, 20);
 justify-content: right;
 align-items: center;
 text-align: right;
-color:white;
+line-height: 1.7rem;
 min-height: 5rem;
 width: 1490px;
-margin-top: 3rem;
+height: 100px;
+margin-top: 2rem;
+margin: 1rem;
 }
+
+.banner {
+    color: white;
+    line-height: 1.7rem;
+    font-size: 1.7rem;
+}
+
 
 
  button {
     background-color: #622363;
     justify-content: center;
+    border-radius: 50px;
+    font-size: 1.5rem;
     color: white;
     text-align: center;
     margin-right: 25rem;
+    margin-left: 1rem;
     width: 300px;
     height: 50px;
    
 }
 
+ .topicos h3 {
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 1rem;
 
+}
 
-
-
-
-
-
-
-
-   
-
+.topicos p {
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 1.7rem;
+}
 
 
 footer {
@@ -163,6 +126,7 @@ h4 {
     color: #622363 ;
     justify-content: space-between;
     text-align: center;
+    margin-top: 1rem;
 }
 
 
@@ -174,6 +138,7 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 0.6rem;
     justify-content: space-between;
+    margin-top: 1rem;
 
 }
 
@@ -185,6 +150,7 @@ footer {
     justify-content: space-between;
     width: 1490px;
     height: 135px;
+    margin-top: 1rem;
     
     
 }

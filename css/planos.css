@@ -1,0 +1,112 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}  */
+/* HTML5 display-role reset for older browsers */
+
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}    */
+
+p {
+    color: #505050;
+    font-size: 1.1rem;
+}
+
+.sectionPlanosServicos {
+    padding: 5rem;
+}
+
+.titulo-planos-e-servicos {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #236687;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 3px;
+    margin-bottom: 2rem;
+}
+
+.border-bottom-58BB29 {
+    border-bottom: 5px solid #58BB29;
+}
+
+.texto-planos {
+    line-height: 1.7rem;
+    margin-bottom: 2.5rem;
+    text-align: center;    
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #622363;
+}
+
+.sectionPlanosFFFFFF {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.padding-dir-imagem {
+    padding-right: 5rem;
+}
+
+.h3-subtitulo {
+    margin-bottom: 2rem;
+}
+
+.sectionPlanosFEEAA2 {
+    background-color: #FEEAA2; 
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionPeriodo {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+
+.sectionPeriodo, h2 {
+    text-align: center;
+}

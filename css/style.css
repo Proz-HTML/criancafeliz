@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*CSS Institucional*/
+.sectionSobre {
+    padding: 5rem 0;
+    background-color: #F6F6F6;
+}
+
+.wrap-sobre {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: inline-flex;
+}
+
+.border-bottom-622363 {
+    border-bottom: 5px solid #622363;
+}
+
+.titulo-sobre {
+    color: #236687;
+    margin-bottom: 3rem;
+}
+
+.texto-sobre {
+    color: #505050;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn-cta-sobre {
+    background-color: #AD4379;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.btn-cta-sobre:hover {
+    background-color: #C73C82;
+}
+
+.padding-dir {
+    padding-right: 5rem;
+}
+
+/*CSS Nossos Colaboradores*/
+.sectionColaboradores {
+    padding: 5rem 0;
+    align-items: center;
+}
+
+.wrap-colaboradores {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.titulo-colaboradores {
+    color: #236687;
+}
+
+.imagem-perfil {
+    margin-bottom: -3rem;
+}
+
+article h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+article p {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    color: #505050;
+}
+
+.card-rosa {
+    background-color: #E8B1D1;
+    padding: 4rem 1rem 1rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.card-verde {
+    background-color: #5DDCE3;
+    padding: 4rem 1rem 1rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.box-icones {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-cta-colaboradores {
+    background-color: #AD4379;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.btn-cta-colaboradores:hover {
+    background-color: #C73C82;
+}
+
+/*CSS Nossas Estrutura*/
+.sectionEstrutura {
+    padding: 5rem 0;
+    background-color: #5DDCE3;
+}
+
+.wrap-estrutura {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-estrutura {
+    color: #236687;
+}
+
+.border-bottom-622363 {
+    border-bottom: 5px solid #622363;
+}
+
+.border-bottom-FFFFFF {
+    border-bottom: 5px solid #ffffff;
+}
+
+.container-imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.box-imagem {
+    background-color: #ffffff;
+    padding: 1rem 1.2rem 2rem 1.2rem;
+    border-radius: 0.7rem;
+}
+
+.texto-imagem {
+    color: #236687;
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*CSS Nossos Planos*/
+.sectionPlanos {
+    padding: 3rem 0;
+    background-color: #FAC500;
+}
+
+.wrap-planos {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-box {
+    margin: 0 auto;
+}
+
+.titulo-planos-wrap {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.titulo-planos {
+    color: #236687;
+    display: inline-block;
+}
+
+.box-planos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.box-meio-periodo {
+    background-color: #622363;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.box-periodo-integral {
+    background-color: #236687;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.box-titulo {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.texto-box {
+    color: #ffffff;
+    margin: 1.2rem 0;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.cta-planos {
+    background-color: #ffffff;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.cta-planos a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #236687;
+}
+
+/*CSS Mapa/Contato*/
+.sectionContato {
+    display: flex;
+}
+
+.sectionMapa {
+    width: 50%;
+}
+
+.sectionForm {
+    width: 50%;
+    padding: 3rem;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mapa-background {
+    background-image: url('../img/mapa.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.inputform {
+    padding: 0.6rem;
+    border: 1px solid #AD4379;
+    border-radius: 0.2rem;
+}
+
+.btn-form {
+    background-color: #236687;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    background-color: #105476;
+}

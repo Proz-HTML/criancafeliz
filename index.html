@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Página inicial">
   <title>Creche e Berçario Criança Feliz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap">
 </head>
 
 <body>
@@ -13,167 +19,197 @@
     <h1><a href="index.html"><img id="logo" src="img/logotipo.png" alt="Logotipo Criança Feliz"></a></h1>
     <nav>
       <ul id="menu">
-        <li><a href="quemSomos.html">Quem Somos</a></li>
-        <li><a href="colaboradores.html">Colaboradores</a></li>
-        <li><a href="planos.html">Planos</a></li>
-        <li><a href="estrutura.html">Estrutura</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="#">Agende uma Visita</a></li>
+        <li class="btn-nav"><a href="quemSomos.html">Quem Somos</a></li>
+        <li class="btn-nav"><a href="colaboradores.html">Colaboradores</a></li>
+        <li class="btn-nav"><a href="planos.html">Planos</a></li>
+        <li class="btn-nav"><a href="estrutura.html">Estrutura</a></li>
+        <li class="btn-nav"><a href="contato.html">Contato</a></li>
+        <li class="btn-cta"><a href="#">Agende uma Visita</a></li>
       </ul>
     </nav>
-    <img src="" alt="Detalhe do header formato de núvem branco">
   </header>
   <div>
-    <img src="img/bannerPrincipal.jpg" alt="Imagem banner principal com uma criança sorrindo">
+    <img width="100%" src="img/bannerPrincipal.jpg" alt="Imagem banner principal com uma criança sorrindo">
   </div>
   <!--Início Sobre a Criança Feliz-->
-  <section class="section" style="background-color: #F6F6F6; padding: 20px 0;">
-    <div>
-      <h2>Sobre a Criança Feliz</h2>
-      <p>A Creche Criança Feliz é mais do que uma instituição de cuidados infantis; somos uma família que se preocupa com o bem-estar e o futuro de suas crianças. Estamos comprometidos em criar um ambiente onde as crianças possam crescer, aprender e, acima de tudo, serem felizes. Obrigado por considerar a Creche Criança Feliz como seu parceiro de confiança na educação e cuidado de suas crianças. Estamos ansiosos para recebê-los em nossa comunidade.</p>
-      <a href="#">Leia mais sobre nós</a>
-    </div>
-    <div>
-      <img src="img/imagem_sobre_home.png" alt="Imagem da Creche">
+  <section class="sectionSobre">
+    <div class="wrap-sobre">
+      <div class="padding-dir">
+        <h2 class="titulo-sobre border-bottom-622363">Sobre a Criança Feliz</h2>
+        <p class="texto-sobre">A <em>Creche Criança Feliz</em> é mais do que uma instituição de cuidados infantis; somos uma família que se preocupa com o bem-estar e o futuro de suas crianças. Estamos comprometidos em criar um ambiente onde as crianças possam crescer, aprender e, acima de tudo, serem felizes. Obrigado por considerar a Creche Criança Feliz como seu parceiro de confiança na educação e cuidado de suas crianças. Estamos ansiosos para recebê-los em nossa comunidade.</p>
+        <a class="btn-cta-sobre" href="quemSomos.html">Leia mais sobre nós</a>
+      </div>
+      <div>
+        <img src="img/imagem_sobre_home.png" alt="Imagem da Creche">
+      </div>
     </div>
   </section>
   <!--Fim Sobre a Criança Feliz-->
-  <div><img src="" alt="Detalhe do Sobre a Criança Feliz formato de núvem cor #F6F6F6"></div>
+  <div><img width="100%" src="img/vetorNuvemSobre.png"></div>
   <!--Início Nossos Colaboradores-->
-  <section style="padding: 20px 0;">
-    <div>
-      <h1>Nossos Colaboradores</h1>
-    </div>
-    <div>
-      <article>
-        <img src="img/colaboradores/anaLuiza.png" alt="Ana Luiza">
-        <h3>Ana Luiza</h3>
-        <p>Coord. Pedagógica</p>
-        <span>
-          <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
-          <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
-          <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
-        </span>
-      </article>
-      <article>
-        <img src="img/colaboradores/mariaPaula.png" alt="Maria Paula">
-        <h3>Maria Paula</h3>
-        <p>Profª Inglês</p>
-        <span>
-          <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
-          <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
-          <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
-        </span>
-      </article>
-      <article>
-        <img src="img/colaboradores/lailaCristina.png" alt="Laila Cristina">
-        <h3>Laila Cristina</h3>
-        <p>Instr. de Recreação</p>
-        <span>
-          <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
-          <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
-          <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
-        </span>
-      </article>
-      <article>
-        <img src="img/colaboradores/pedroFelipe.png" alt="Pedro Felipe">
-        <h3>Pedro Felipe</h3>
-        <p>Prof Artes</p>
-        <span>
-          <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
-          <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
-          <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
-        </span>
-      </article>
-      <a href="#">Ver todos os colaboradores</a>
+  <section class="sectionColaboradores">
+    <div class="wrap-colaboradores">
+      <div>
+        <h2 class="titulo-colaboradores border-bottom-622363">Nossos Colaboradores</h2>
+      </div>
+      <div class="container-cards">
+        <article>
+          <img class="imagem-perfil" src="img/colaboradores/anaLuiza.png" alt="Ana Luiza">
+          <div class="card-rosa">
+            <h3>Ana Luiza</h3>
+            <p>Coord. Pedagógica</p>
+            <div class="box-icones">
+              <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+              <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+              <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
+            </div>
+          </div>
+        </article>
+        <article>
+          <img class="imagem-perfil" src="img/colaboradores/mariaPaula.png" alt="Maria Paula">
+          <div class="card-verde">
+            <h3>Maria Paula</h3>
+            <p>Profª Inglês</p>
+            <div class="box-icones">
+              <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+              <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+              <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
+            </div>
+          </div>
+        </article>
+        <article>
+          <img class="imagem-perfil" src="img/colaboradores/lailaCristina.png" alt="Laila Cristina">
+          <div class="card-rosa">
+            <h3>Laila Cristina</h3>
+            <p>Instr. de Recreação</p>
+            <div class="box-icones">
+              <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+              <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+              <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
+            </div>
+          </div>
+        </article>
+        <article>
+          <img class="imagem-perfil" src="img/colaboradores/pedroFelipe.png" alt="Pedro Felipe">
+          <div class="card-verde">
+            <h3>Pedro Felipe</h3>
+            <p>Prof Artes</p>
+            <div class="box-icones">
+              <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+              <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+              <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div>
+        <a class="btn-cta-colaboradores" href="colaboradores.html">Ver todos os colaboradores</a>
+      </div>
     </div>
   </section>
   <!--Fim Nossos Colaboradores-->
   <!--Início Nossa Estrutura-->
-  <div><img src="" alt="Detalhe Nossa Estrutura formato de núvem cor #5DDCE3"></div>
-  <section style="background-color: #5DDCE3; padding: 20px 0;">
-    <div>
-      <h2>Nossa Estrutura</h2>
-    </div>
-    <div>
-      <article>
-        <img src="img/nossaEstrutura/brinquedoteca.png" alt="Brinquedoteca">
-        <figcaption>Brinquedoteca</figcaption>
-      </article>
-      <article>
-        <img src="img/nossaEstrutura/playground.png" alt="Playground">
-        <figcaption>Playground</figcaption>
-      </article>
-      <article>
-        <img src="img/nossaEstrutura/park.png" alt="Park kids interno">
-        <figcaption>Park kids interno</figcaption>
-      </article>
-      <article>
-        <img src="img/nossaEstrutura/bercarios.png" alt="Berçarios">
-        <figcaption>Berçarios</figcaption>
-      </article>
+  <img style="margin-bottom: -1rem;" width="100%" src="img/vetorNossaEstrutura.png">
+  <section class="sectionEstrutura">
+    <div class="wrap-estrutura">
+      <div>
+        <h2 class="titulo-estrutura border-bottom-622363">Nossa Estrutura</h2>
+      </div>
+      <div class="container-imagens">
+        <article class="box-imagem">
+          <img src="img/nossaEstrutura/brinquedoteca.png" alt="Brinquedoteca">
+          <figcaption class="texto-imagem">Brinquedoteca</figcaption>
+        </article>
+        <article class="box-imagem">
+          <img src="img/nossaEstrutura/playground.png" alt="Playground">
+          <figcaption class="texto-imagem">Playground</figcaption>
+        </article>
+        <article class="box-imagem">
+          <img src="img/nossaEstrutura/park.png" alt="Park kids interno">
+          <figcaption class="texto-imagem">Park kids interno</figcaption>
+        </article>
+        <article class="box-imagem">
+          <img src="img/nossaEstrutura/bercarios.png" alt="Berçarios">
+          <figcaption class="texto-imagem">Berçarios</figcaption>
+        </article>
+      </div>
     </div>
   </section>
   <!--Fim Nossa Estrutura-->
   <!--Início Nossos Planos-->
-  <section style="background-color: #FAC500; padding: 20px 0;">
-    <div>
-      <img src="img/nossosPlanos/imaNossosPlanosHome.png" alt="Imagem">
-    </div>
-    <div>
-      <h2>Nossos planos</h2>
-      <article>
-        <h3>Meio período</h3>
-        <ul>
-          <li>Mussum Ipsum, cacilds vidis litro abertis.</li>
-          <li>Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Admodum accumsan disputationi</li>
-          <li>Vide electram sadipscing et per.</li>
-        </ul>
-        <a href="#">saiba mais</a>
-      </article>
-      <article>
-        <h3>Período integral</h3>
-        <ul>
-          <li>Mussum Ipsum, cacilds vidis litro abertis.</li>
-          <li>Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Admodum accumsan disputationi</li>
-          <li>Vide electram sadipscing et per.</li>
-        </ul>
-        <a href="#">saiba mais</a>
-      </article>
+  <section class="sectionPlanos">
+    <div class="wrap-planos">
+      <div>
+        <img src="img/nossosPlanos/imaNossosPlanosHome.png" alt="Imagem">
+      </div>
+      <div class="wrap-box">
+        <div class="titulo-planos-wrap">
+          <h2 class="titulo-planos border-bottom-FFFFFF">Nossos planos</h2>
+        </div>
+        <div class="box-planos">
+          <article class="box-meio-periodo">
+            <h3 class="box-titulo">Meio período</h3>
+            <div>
+              <p class="texto-box">Mussum Ipsum, cacilds vidis litro abertis.</p>
+              <p class="texto-box">Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Admodum accumsan disputationi</p>
+              <p class="texto-box">Vide electram sadipscing et per.</p>
+            </div>
+            <div class="cta-planos"><a href="#">saiba mais</a></div>
+          </article>
+          <article class="box-periodo-integral">
+            <h3 class="box-titulo">Período integral</h3>
+            <div class="texto-box">
+              <p class="texto-box">Mussum Ipsum, cacilds vidis litro abertis.</p>
+              <p class="texto-box">Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Admodum accumsan disputationi</p>
+              <p class="texto-box">Vide electram sadipscing et per.</p>
+            </div>
+            <div class="cta-planos"><a href="#">saiba mais</a></div>
+          </article>
+        </div>
+      </div>
     </div>
   </section>
   <!--Fim Nossos Planos-->
   <!--Início Mapa / Fale Conosco-->
-  <section>
-    <div>
-      <img src="img/mapa.png">
+  <section class="sectionContato">
+    <div class="sectionMapa">
+      <!-- <div class="mapa-background"></div> -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.545853571055!2d-49.33107482386399!3d-20.76919356499047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bc52fec8257049%3A0x848a0aefd6092b4d!2sAv.%20Jos%C3%A9%20da%20Silva%20S%C3%A9%2C%20405%20-%20Parque%20da%20Liberdade%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP%2C%2015056-750!5e0!3m2!1spt-BR!2sbr!4v1701699148371!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </div>
-    <div>
+    <div class="sectionForm">
       <!-- Conteúdo da segunda div -->
-      <h3>Fale conosco</h3>
+      <div class="form-header">
+        <h2>Fale conosco</h2>
+      </div>
       <form action="processar_formulario.php" method="post">
-        <label for="nome">Nome completo:</label>
-        <input type="text" id="nome" name="nome" required>
-        <br />
-        <label for="whatsapp">Whatsapp:</label>
-        <input type="tel" id="whatsapp" name="whatsapp" required>
-        <br />
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        <br />
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto" required>
-        <br />
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" required></textarea>
-        <br />
-        <button type="submit">Enviar</button>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="nome">Nome completo:</label>
+          <input class="inputform" type="text" id="nome" name="nome" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="whatsapp">Whatsapp:</label>
+          <input class="inputform" type="tel" id="whatsapp" name="whatsapp" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="email">E-mail:</label>
+          <input class="inputform" type="email" id="email" name="email" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="assunto">Assunto:</label>
+          <input class="inputform" type="text" id="assunto" name="assunto" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="mensagem">Mensagem:</label>
+          <textarea class="inputform" type="text" id="mensagem" name="mensagem" rows="6" required></textarea>
+        </div>
+        <button class="btn-form" type="submit">Enviar</button>
       </form>
     </div>
   </section>
   <!--Fim Mapa / Fale Conosco-->
   <!--Início Rodapé-->
-  <footer style="background-color: #F6F6F6; padding: 20px 0;">
+  <footer class="border-bottom-622363">
     <div class="footer-div">
       <h4><img src="img/logotipo.png"></h4>
     </div>
@@ -191,9 +227,9 @@
     <div class="footer-div">
       <h4>Siga em nossas redes</h4>
       <div class="social-media">
-        <img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin">
-        <img src="img/colaboradores/iconeInsta.png" alt="Instagram">
-        <img src="img/colaboradores/iconeFacebook.png" alt="Facebook">
+        <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+        <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
       </div>
     </div>
   </footer>

@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Página inicial">
   <title>Nossa estrutura - Creche e Berçario Criança Feliz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,23 +20,59 @@
     <h1><a href="index.html"><img id="logo" src="img/logotipo.png" alt="Logotipo Criança Feliz"></a></h1>
     <nav>
       <ul id="menu">
-        <li><a href="quemSomos.html">Quem Somos</a></li>
-        <li><a href="colaboradores.html">Colaboradores</a></li>
-        <li><a href="planos.html">Planos</a></li>
-        <li><a href="estrutura.html">Estrutura</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="#">Agende uma Visita</a></li>
+        <li class="btn-nav"><a href="quemSomos.html">Quem Somos</a></li>
+        <li class="btn-nav"><a href="colaboradores.html">Colaboradores</a></li>
+        <li class="btn-nav"><a href="planos.html">Planos</a></li>
+        <li class="btn-nav"><a href="estrutura.html">Estrutura</a></li>
+        <li class="btn-nav"><a href="contato.html">Contato</a></li>
+        <li class="btn-cta"><a href="#">Agende uma Visita</a></li>
       </ul>
     </nav>
-    <img src="" alt="Detalhe do header formato de núvem branco">
   </header>
   <div>
-    <img src="img/nossaEstrutura/bannerEstrutura.jpg" alt="Imagem banner principal com uma criança sorrindo">
+    <img width="100%" src="img/nossaEstrutura/bannerEstrutura.jpg" alt="Imagem banner principal com uma criança sorrindo">
   </div>
   <section>
-    <!--Todo conteúdo vai aqui-->
+    <li><u>Nossa Estrutura</u></li>
+    <p>Convidamos vocês a fazer um tour pela Creche Criança Feliz para conhecer nossas instalações e equipe. Estamos sempre abertos para responder a todas as suas perguntas e discutir como podemos atender às necessidades únicas de sua família.
+    </p>
+
+    <img src="./img/nossaEstrutura/brinquedoteca.png" alt="Imagem de uma brinquedoteca do tipo motessoriana">
+    <li>BRINQUEDOTECA</li>
+    <p>
+      Com espaço montessoriano que estimula a autoeducação e o desenvolvimento holístico da criança.
+    </p>
+
+    <img src="./img/nossaEstrutura/playground.png" alt="imagem de um playgroud em área externa">
+    <li>PLAYGROUND</li>
+    <p>
+      Em área aberta para socialização e atividades coletivas, com brinquedos ergonômicos em material atóxico.
+    </p>
+
+    <img src="./img/nossaEstrutura/bercarios.png" alt="imagem de um berçario">
+    <li>BERÇÁRIOS</li>
+    <p>
+      por idade com fraldário, banheiro infantil e hora da soneca acompanhada por contação de histórias
+    </p>
+
+    <img src="./img/nossaEstrutura/park.png" alt="imagem de um parque infantil com brinquedos acolchoados">
+
+    <li>PARK KIDS INTERNO</li>
+    <p>
+      para a diversão com ludicidade com brinquedos acolchoados e ambiente climatizado
+    </p>
+
+    <!-- area do banner verde com botão de agendar visita -->
+    <section>
+      <div style="background-color: chartreuse;">
+        <span>Agende uma visita e conheça nossa estrutura completa</span>
+        <br>
+        <button type="button">Agendar visita</button>
+      </div>
+    </section>
+    <!-- area do banner verde com botão de agendar visita -->
   </section>
-  <footer style="background-color: #F6F6F6; padding: 20px 0;">
+  <footer class="border-bottom-622363">
     <div class="footer-div">
       <h4><img src="img/logotipo.png"></h4>
     </div>
@@ -47,9 +90,9 @@
     <div class="footer-div">
       <h4>Siga em nossas redes</h4>
       <div class="social-media">
-        <img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin">
-        <img src="img/colaboradores/iconeInsta.png" alt="Instagram">
-        <img src="img/colaboradores/iconeFacebook.png" alt="Facebook">
+        <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+        <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
       </div>
     </div>
   </footer>

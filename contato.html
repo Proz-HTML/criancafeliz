@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Página inicial">
   <title>Contato - Creche e Berçario Criança Feliz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,23 +20,57 @@
     <h1><a href="index.html"><img id="logo" src="img/logotipo.png" alt="Logotipo Criança Feliz"></a></h1>
     <nav>
       <ul id="menu">
-        <li><a href="quemSomos.html">Quem Somos</a></li>
-        <li><a href="colaboradores.html">Colaboradores</a></li>
-        <li><a href="planos.html">Planos</a></li>
-        <li><a href="estrutura.html">Estrutura</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="#">Agende uma Visita</a></li>
+        <li class="btn-nav"><a href="quemSomos.html">Quem Somos</a></li>
+        <li class="btn-nav"><a href="colaboradores.html">Colaboradores</a></li>
+        <li class="btn-nav"><a href="planos.html">Planos</a></li>
+        <li class="btn-nav"><a href="estrutura.html">Estrutura</a></li>
+        <li class="btn-nav"><a href="contato.html">Contato</a></li>
+        <li class="btn-cta"><a href="#">Agende uma Visita</a></li>
       </ul>
     </nav>
-    <img src="" alt="Detalhe do header formato de núvem branco">
   </header>
   <div>
-    <img src="img/contato/bannerContato.png" alt="Imagem banner principal com uma criança sorrindo">
+    <img width="100%" src="img/contato/bannerContato.png" alt="Imagem banner principal com uma criança sorrindo">
   </div>
-  <section>
-    <!--Todo conteúdo vai aqui-->
+  <!--Início Mapa / Fale Conosco-->
+  <section class="sectionContato">
+    <div class="sectionMapa">
+      <!-- <div class="mapa-background"></div> -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.545853571055!2d-49.33107482386399!3d-20.76919356499047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bc52fec8257049%3A0x848a0aefd6092b4d!2sAv.%20Jos%C3%A9%20da%20Silva%20S%C3%A9%2C%20405%20-%20Parque%20da%20Liberdade%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP%2C%2015056-750!5e0!3m2!1spt-BR!2sbr!4v1701699148371!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <div class="sectionForm">
+      <!-- Conteúdo da segunda div -->
+      <div class="form-header">
+        <h2>Fale conosco</h2>
+      </div>
+      <form action="processar_formulario.php" method="post">
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="nome">Nome completo:</label>
+          <input class="inputform" type="text" id="nome" name="nome" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="whatsapp">Whatsapp:</label>
+          <input class="inputform" type="tel" id="whatsapp" name="whatsapp" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="email">E-mail:</label>
+          <input class="inputform" type="email" id="email" name="email" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="assunto">Assunto:</label>
+          <input class="inputform" type="text" id="assunto" name="assunto" required>
+        </div>
+        <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
+          <label for="mensagem">Mensagem:</label>
+          <textarea class="inputform" type="text" id="mensagem" name="mensagem" rows="6" required></textarea>
+        </div>
+        <button class="btn-form" type="submit">Enviar</button>
+      </form>
+    </div>
   </section>
-  <footer style="background-color: #F6F6F6; padding: 20px 0;">
+  <!--Fim Mapa / Fale Conosco-->
+  <footer class="border-bottom-622363">
     <div class="footer-div">
       <h4><img src="img/logotipo.png"></h4>
     </div>
@@ -47,9 +88,9 @@
     <div class="footer-div">
       <h4>Siga em nossas redes</h4>
       <div class="social-media">
-        <img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin">
-        <img src="img/colaboradores/iconeInsta.png" alt="Instagram">
-        <img src="img/colaboradores/iconeFacebook.png" alt="Facebook">
+        <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+        <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
       </div>
     </div>
   </footer>

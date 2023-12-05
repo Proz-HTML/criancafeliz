@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Página inicial">
   <title>Nossos planos - Creche e Berçario Criança Feliz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/planos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,23 +20,82 @@
     <h1><a href="index.html"><img id="logo" src="img/logotipo.png" alt="Logotipo Criança Feliz"></a></h1>
     <nav>
       <ul id="menu">
-        <li><a href="quemSomos.html">Quem Somos</a></li>
-        <li><a href="colaboradores.html">Colaboradores</a></li>
-        <li><a href="planos.html">Planos</a></li>
-        <li><a href="estrutura.html">Estrutura</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="#">Agende uma Visita</a></li>
+        <li class="btn-nav"><a href="quemSomos.html">Quem Somos</a></li>
+        <li class="btn-nav"><a href="colaboradores.html">Colaboradores</a></li>
+        <li class="btn-nav"><a href="planos.html">Planos</a></li>
+        <li class="btn-nav"><a href="estrutura.html">Estrutura</a></li>
+        <li class="btn-nav"><a href="contato.html">Contato</a></li>
+        <li class="btn-cta"><a href="#">Agende uma Visita</a></li>
       </ul>
     </nav>
-    <img src="" alt="Detalhe do header formato de núvem branco">
   </header>
   <div>
-    <img src="img/nossosPlanos/bannerPlanos.jpg" alt="Imagem banner principal com uma criança sorrindo">
+    <img width="100%" src="img/nossosPlanos/bannerPlanos.jpg" alt="Imagem banner principal com uma criança sorrindo">
   </div>
-  <section>
-    <!--Todo conteúdo vai aqui-->
+  <section class="sectionPlanosServicos">
+    <div>
+      <h1 class="titulo-planos-e-servicos border-bottom-58BB29">Planos e serviços</h1>
+    </div>
+    <p class="texto-planos">Na Creche Criança Feliz, oferecemos uma variedade de serviços para atender às necessidades das famílias. Entre os nossos serviços estão:</p>
   </section>
-  <footer style="background-color: #F6F6F6; padding: 20px 0;">
+  <section class="sectionPlanosFFFFFF">
+    <div class="padding-dir-imagem">
+      <img src="img/nossosPlanos/professoraEGrupoCriancas.png" alt="Imagem de uma professora com um grupo de crianças">
+    </div>
+    <div>
+      <h3 class="h3-subtitulo">Planos Flexíveis</h3>
+      <p>Oferecemos planos de meio período e período integral para se adaptar às necessidades de horário de trabalho das famílias.</p>
+    </div>
+  </section>
+  <section class="sectionPlanosFEEAA2">
+    <div>
+      <h3 class="h3-subtitulo">Cuidados Especiais</h3>
+      <p>Temos profissionais qualificados para atender às necessidades de crianças com necessidades especiais, garantindo que todas as crianças tenham igualdade de oportunidades.</p>
+    </div>
+    <div>
+      <img src="img/nossosPlanos/criancaComViolao.png" alt="Imagem de uma criança tocando violão e uma turma atrás">
+    </div>
+  </section>
+  <section class="sectionPlanosFFFFFF">
+    <div class="padding-dir-imagem">
+      <img src="img/nossosPlanos/criancaBrincando.png" alt="Imagem de uma criança brincando com números no chão">
+    </div>
+    <div>
+      <h3 class="h3-subtitulo">Atividades Lúdicas e Educativas</h3>
+      <p>Oferecemos um programa educacional enriquecedor, com atividades que estimulam o desenvolvimento acadêmico e criativo.</p>
+    </div>
+  </section>
+  <section class="sectionPlanosFEEAA2">
+    <div>
+      <h3 class="h3-subtitulo">Alimentação Saudável</h3>
+      <p>Fornecemos refeições nutritivas e equilibradas para garantir o bem-estar das crianças.</p>
+    </div>
+    <div>
+      <img src="img/nossosPlanos/criancaComendoVerdura.png" alt="Imagem de uma criança comendo verdura">
+    </div>
+  </section>
+  <section class="sectionPeriodo">
+    <div style="background-color: #622363; padding: 20px 0;">
+      <h2>MEIO PERÍODO</h2>
+      <ul>
+        <li>Mussum Ipsum, cacilds vidis litro abertis.</li>
+        <li>Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Admodum accumsan disputationi</li>
+        <li>Vide electram sadipscing et per.</li>
+      </ul>
+      <span style="background-color: #17B806; padding: 10px;"><a href="#">QUERO ESTE PLANO</a></span>
+    </div>
+
+    <div style="background-color: #236687; padding: 20px 0;">
+      <h2>PERÍODO INTEGRAL</h2>
+      <ul>
+        <li>Mussum Ipsum, cacilds vidis litro abertis.</li>
+        <li>Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis! Admodum accumsan disputationi</li>
+        <li>Vide electram sadipscing et per.</li>
+      </ul>
+      <span style="background-color: #CA2C20; padding: 10px;"><a href="#">QUERO ESTE PLANO</a></span>
+    </div>
+  </section>
+  <footer class="border-bottom-622363">
     <div class="footer-div">
       <h4><img src="img/logotipo.png"></h4>
     </div>
@@ -47,9 +113,9 @@
     <div class="footer-div">
       <h4>Siga em nossas redes</h4>
       <div class="social-media">
-        <img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin">
-        <img src="img/colaboradores/iconeInsta.png" alt="Instagram">
-        <img src="img/colaboradores/iconeFacebook.png" alt="Facebook">
+        <a href="#"><img src="img/colaboradores/iconeLinkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="img/colaboradores/iconeInsta.png" alt="Instagram"></a>
+        <a href="#"><img src="img/colaboradores/iconeFacebook.png" alt="Facebook"></a>
       </div>
     </div>
   </footer>
