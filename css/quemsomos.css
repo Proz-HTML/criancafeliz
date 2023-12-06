@@ -42,3 +42,8 @@ table {
     border-spacing: 0;
 
 }
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
