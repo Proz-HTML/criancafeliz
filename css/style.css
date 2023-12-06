@@ -301,6 +301,10 @@ article p {
     border-bottom: 5px solid #ffffff;
 }
 
+.border-bottom-58BB29 {
+    border-bottom: 5px solid #58BB29;
+}
+
 .container-imagens {
     display: flex;
     flex-direction: row;
@@ -409,7 +413,7 @@ article p {
 
 .sectionForm {
     width: 50%;
-    padding: 3rem;
+    padding: 3rem 7rem;
 }
 
 .form-header {
