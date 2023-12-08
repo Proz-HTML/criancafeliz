@@ -58,7 +58,7 @@ p {
     font-weight: 600;
     color: #236687;
     text-align: center;
-    margin: 0;
+    margin: 0 520px;
     padding-bottom: 3px;
     margin-bottom: 2rem;
 }
@@ -105,8 +105,31 @@ h3 {
     display: flex;
     flex-direction: row;
     color: #FFFFFF;
+    justify-content: space-between;
+    border: 2rem;
 }
 
 .sectionPeriodo, h2 {
     text-align: center;
+    /* margin-top: 2rem; */
+}
+
+.texto-periodo {
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.botao-meio-periodo {
+    background-color: #17B806; 
+    padding: 10px;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botao-periodo-integral {
+    background-color: #CA2C20; 
+    padding: 10px;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #FFFFFF;
 }

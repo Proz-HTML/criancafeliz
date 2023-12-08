@@ -1,30 +1,102 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+
+.titulo-quemsomos  {
+    margin-left: 22rem;
+    margin-right: 22rem;
+    font-family: nunito;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.0rem;
+    border-bottom: 0.3rem solid rgb(20, 196, 20);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #236687; 
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
+
+
+
+.texto-inicio-quemsomos p  {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+    color: #505050;
 }
-body {
-    line-height: 1;
+
+.subtitulo-missao-visao h3  {
+    border-bottom: 0.3rem solid rgb(20, 196, 20);
+    line-height: 1.7rem;
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 75rem;
+    margin-top: 1rem;
+}
+
+.texto-missao-visao p {
+text-align: left;
+margin-left: 10rem;
+margin-right: 10rem;
+line-height: 1.7rem;
+font-size: 1.1rem;
+}
+
+
+.banner-verde {
+display: flex;
+background-color: rgb(20, 196, 20);
+justify-content: right;
+align-items: center;
+text-align: right;
+line-height: 1.7rem;
+min-height: 5rem;
+width: 1490px;
+height: 100px;
+margin-top: 2rem;
+margin: 1rem;
+}
+
+.banner {
+    color: white;
+    line-height: 1.7rem;
+    font-size: 1.7rem;
+}
+
+
+
+ button {
+    background-color: #622363;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-right: 25rem;
+    margin-left: 1rem;
+    width: 300px;
+    height: 50px;
+   
+}
+
+ .topicos h3 {
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.topicos p {
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 1.7rem;
 }
 ol, ul {
     list-style: none;
@@ -41,9 +113,4 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 
-}
-.text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
