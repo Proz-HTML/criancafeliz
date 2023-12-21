@@ -44,14 +44,15 @@
       <div class="form-header">
         <h2>Fale conosco</h2>
       </div>
-      <form action="processar_formulario.php" method="post">
+      <!-- action="processar_formulario.php" -->
+      <form  method="post" id="signupForm">
         <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
           <label for="nome">Nome completo:</label>
           <input class="inputform" type="text" id="nome" name="nome" required>
         </div>
         <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
           <label for="whatsapp">Whatsapp:</label>
-          <input class="inputform" type="tel" id="whatsapp" name="whatsapp" required>
+          <input class="inputform" type="number" id="whatsapp" name="whatsapp" required>
         </div>
         <div style="display: flex; flex-direction: column; margin-bottom: 1rem;">
           <label for="email">E-mail:</label>
@@ -69,6 +70,37 @@
       </form>
     </div>
   </section>
+
+  <!-- <script>
+    let getForm = document.getElementById('signupForm')
+    let getElement = form.elements[0]
+
+    function requireValue(input){
+      return !(input.value.trim() === '')
+    }
+
+    getForm.addEventListener("submit", (event) => {
+      requiredFields.forEach((input) => {
+        valid = valid | requireValue(input.input)
+      })
+      if (!valid){
+        event.preventDefault()
+      }
+    })
+    
+    console.log(requireValue(getElement))
+
+    
+  </script> -->
+
+  <script>
+    let form = document.querySelector("form")
+
+    console.log(form.nome.value)
+  </script>
+
+
+
   <!--Fim Mapa / Fale Conosco-->
   <footer class="border-bottom-622363">
     <div class="footer-div">
