@@ -6,7 +6,6 @@
 let botao = document.querySelector('#btn');
 
 
-
 botao.addEventListener('mouseover', () => {
 
 botao.textContent = 'Venha Logo e Faça sua Visita';
@@ -21,16 +20,18 @@ botao.textContent = 'Agenda a sua Visita';
 
 
 
+
 //         modificando visual banner texto
 
 let banner = document.querySelector('#banner'); 
 
 banner.addEventListener('mouseover', () => {
-banner.textContent = 'Venha confirir nossa Estrutura';
+banner.textContent = 'Venha confirir nossa amada Estrutura';
 
 })
 
 banner.addEventListener('mouseout', () => {
-banner.textContent = 'Venha agendar uma Visita';
+banner.textContent = 'Venha logo e agende uma Visita';
 
 })
+
