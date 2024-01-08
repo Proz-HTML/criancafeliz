@@ -1,10 +1,11 @@
 
 
-.text{
+text{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .titulo-quemsomos  {
     margin-left: 22rem;
     margin-right: 22rem;
@@ -59,30 +60,30 @@ text-align: right;
 line-height: 1.7rem;
 min-height: 5rem;
 width: 1490px;
-height: 100px;
+height: 110px;
 margin-top: 2rem;
 margin: 1rem;
 }
 
-.banner {
+#banner {
     color: white;
     line-height: 1.7rem;
     font-size: 1.7rem;
+    margin-right: 30rem;
 }
 
 
 
- button {
+ #btn {
     background-color: #622363;
-    justify-content: center;
+    color: white;
+    justify-content: space-between;
     border-radius: 50px;
     font-size: 1.5rem;
-    color: white;
     text-align: center;
-    margin-right: 25rem;
-    margin-left: 1rem;
-    width: 300px;
-    height: 50px;
+    margin-right: 10rem;
+    width: 350px;
+    height: 60px;
    
 }
 
@@ -160,5 +161,3 @@ footer {
     
     
 }
-
-

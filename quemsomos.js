@@ -23,7 +23,7 @@ botao.textContent = 'Agenda a sua Visita';
 
 //         modificando visual banner texto
 
-let banner = document.querySelector('.banner'); 
+let banner = document.querySelector('#banner'); 
 
 banner.addEventListener('mouseover', () => {
 banner.textContent = 'Venha confirir nossa Estrutura';
