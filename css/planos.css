@@ -67,6 +67,18 @@ p {
     border-bottom: 5px solid #58BB29;
 }
 
+.sombra-imagem-direita-baixo {
+    box-shadow: 3px 4px 8px #622363; 
+    transition: box-shadow 0.3s ease; 
+    border-radius: 20px;
+}
+
+.sombra-imagem-esquerda-baixo {
+    box-shadow: -3px 4px 8px #622363; 
+    transition: box-shadow 0.3s ease; 
+    border-radius: 20px;
+}
+
 .texto-planos {
     line-height: 1.7rem;
     margin-bottom: 2.5rem;
@@ -85,8 +97,13 @@ h3 {
     flex-direction: row;
 }
 
+.sectionPlanosFFFFFF img {
+    border-radius: 20px;
+}
+
 .padding-dir-imagem {
     padding-right: 5rem;
+    border-radius: 20px;
 }
 
 .h3-subtitulo {
@@ -99,6 +116,10 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.sectionPlanosFEEAA2 img {
+    border-radius: 20px;
 }
 
 .sectionPeriodo {
@@ -124,6 +145,7 @@ h3 {
     border-radius: 2rem;
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: 900;
 }
 
 .botao-periodo-integral {
@@ -132,4 +154,7 @@ h3 {
     border-radius: 2rem;
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: 900;
 }
+
+  
