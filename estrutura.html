@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+  <script src="estrutura.js" defer></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
         <li class="btn-nav"><a href="planos.html">Planos</a></li>
         <li class="btn-nav"><a href="estrutura.html">Estrutura</a></li>
         <li class="btn-nav"><a href="contato.html">Contato</a></li>
-        <li class="btn-cta"><a href="#">Agende uma Visita</a></li>
+        <li class="btn-cta"><a href="http://127.0.0.1:5500/criancafeliz/contato.html">Agende uma Visita</a></li>
       </ul>
     </nav>
   </header>
@@ -48,40 +49,71 @@
     </div>
 
     <article class="bloco01">
+      <div class="container-slider-brinquedoteca">
+        <button id="seta-avancar"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta" ></button>
       <div class="div-brinquedoteca">
-        <img src="./img/nossaEstrutura/brinquedoteca.png" alt="Imagem de uma brinquedoteca do tipo motessoriana">
-        <li>BRINQUEDOTECA</li>
-        <p>
-          Com espaço montessoriano que estimula a autoeducação e o desenvolvimento holístico da criança.
-        </p>
+        <img src="./img/nossaEstrutura/brinquedoteca.png" alt="Imagem de uma brinquedoteca do tipo motessoriana" class="slider on" >
+        <img src="./img/nossaEstrutura/brinquedoteca2.jpeg" alt="Imagem de uma brinquedoteca do tipo motessoriana" class="slider">
+        <div class="text-brinquedoteca">
+          <h3>BRINQUEDOTECA</h3>
+          <p>
+            Com espaço montessoriano que estimula a autoeducação e o desenvolvimento holístico da criança.
+          </p>
+        </div> 
       </div>
-
+      <button id="seta-voltar"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta"></button>
+      </div>
+     
+      <div class="container-slider-playground">
+        <button id="seta-avancar-playground"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta" ></button>
       <div class="div-playground">
-        <img src="./img/nossaEstrutura/playground.png" alt="imagem de um playgroud em área externa">
-        <li>PLAYGROUND</li>
+        <img src="./img/nossaEstrutura/playground.png" alt="imagem de um playgroud em área interna" class="slider-playground on" >
+        <img src="./img/nossaEstrutura/playground2.jpg" alt="imagem de um playgroud area externa" class="slider-playground">
+        <div class="text-playground">        
+        <h3>PLAYGROUND</h3>
         <p>
           Em área aberta para socialização e atividades coletivas, com brinquedos ergonômicos em material atóxico.
         </p>
       </div>
+      
+      </div>
+      <button id="seta-voltar-playground"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta" ></button>
+    </div>
     </article>
 
     <article class="bloco02">
 
+      
+      <div class="container-slider-bercarios">
+        <button id="seta-avancar-bercarios"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta" ></button>
       <div class="div-bercarios">
-        <img src="./img/nossaEstrutura/bercarios.png" alt="imagem de um berçario">
-        <li>BERÇÁRIOS</li>
-        <p>
-          Por idade com fraldário, banheiro infantil e hora da soneca acompanhada por contação de histórias
-        </p>
+        <img src="./img/nossaEstrutura/bercarios.png" alt="Imagem de uma brinquedoteca do tipo motessoriana" class="slider-bercarios on" >
+        <img src="./img/nossaEstrutura/bercario2.jpg" alt="Imagem de uma brinquedoteca do tipo motessoriana" class="slider-bercarios">
+        <div class="text-bercarios">
+          <h3>BERÇARIO</h3>
+          <p>
+            Espaço climatizado, supervisionado 24 horas por nossa equipe e hora da soneca com contação de histórias.
+          </p>
+        </div> 
       </div>
-
+      <button id="seta-voltar-bercarios"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta"></button>
+      </div>
+      
+      <div class="container-slider-parkkids">
+        <button id="seta-avancar-parkkids"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta" ></button>
       <div class="div-parkkids">
-        <img src="./img/nossaEstrutura/park.png" alt="imagem de um parque infantil com brinquedos acolchoados">
-        <li>PARK KIDS INTERNO</li>
-        <p>
-          Para a diversão com ludicidade com brinquedos acolchoados e ambiente climatizado
-        </p>
+        <img src="./img/nossaEstrutura/park.png" alt="Imagem de uma brinquedoteca do tipo motessoriana" class="slider-parkkids on" >
+        <img src="./img/nossaEstrutura/parkkids2.jpg" alt="Imagem de uma brinquedoteca do tipo motessoriana" class="slider-parkkids">
+        <div class="text-parkkids">
+          <h3>PARK KIDS</h3>
+          <p>
+            Para a diversão com ludicidade com brinquedos acolchoados e ambiente climatizado e também em área externa para atividades de verão.
+          </p>
+        </div> 
       </div>
+      <button id="seta-voltar-parkkids"><img src="./img/nossaEstrutura/arrowDireita.png" alt="seta"></button>
+      </div>
+      
     </article>
     </section>
     <!-- area do banner verde com botão de agendar visita -->
@@ -91,8 +123,7 @@
         </p>
       </div>
       <div class="botao">
-        <p>Agendar visita
-        </p>
+        <a href="http://127.0.0.1:5500/criancafeliz/contato.html"><p>Agendar visita</p></a>
       </div>
       </div>
     </section>

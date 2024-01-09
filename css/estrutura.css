@@ -55,13 +55,14 @@ table {
     color: #236687;
     border-bottom: 0.3rem solid #622363;
     margin-top: 2.0rem;
-    margin-bottom: 2.0rem;
+    margin-bottom: 2.0rem; 
     
 }
 .texto-nossa-estrutura p{
     text-align: center;
-    margin-left: 4.0rem;
-    margin-right: 4.0rem;
+    margin-left: 7.0rem;
+    margin-right: 7.0rem;
+    margin-bottom: 1rem;
     font-size: 1.1rem;
     font-family: Roboto, sans-serif;
     line-height: 1.7rem;
@@ -71,38 +72,73 @@ table {
 /* arruma as divs lado a lado */
 .bloco01{
     display: flex;
-    margin-left: 5.0rem;
-    margin-right: 3.0rem;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 .bloco02{
     display: flex;
-    margin-left: 5.0rem;
-    margin-right: 3.0rem;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 1.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-bottom: 2rem;
 }
 /* arruma as divs lado a lado */
 
-.div-brinquedoteca{
+.container-slider-brinquedoteca{
     background-color:white;
-    padding-top: 1.0rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border-radius: 0.8rem;
-    list-style-type: none;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-right: 3.5rem;
-    width: 40.0rem;
+    border-radius: 0.5rem;
+    display: flex;
+    min-height: 80vh;
+    justify-content:space-between;
+    align-items:center;
+    width: 40%;
+    gap: 1rem;
 }
-.div-brinquedoteca img{
+.div-brinquedoteca {
+    position: relative;
     border-radius: 0.8rem;
-    margin: auto;
     width: 30.0rem;
-    display: block;
-    padding: 0.7rem;
-    
+    display: flex;
+    justify-content: center;
+    align-items: top;      
 }
-.div-brinquedoteca li{
+.text-brinquedoteca {
+    padding-top: 26rem;
+}
+.slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position:absolute;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.on {
+    opacity: 1;
+}
+#seta-avancar, #seta-voltar {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+
+}
+#seta-avancar {
+    transform: rotate(180deg);
+}
+
+#seta-avancar img, #seta-voltar img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-brinquedoteca h3{
     color: #236687;
     padding-block: 0.7rem;
     text-align: center;
@@ -110,7 +146,7 @@ table {
     font-weight: bold;
     font-family: Nunito;
 }
-.div-brinquedoteca p {
+.text-brinquedoteca p {
     text-align: center;
     margin: auto;
     display: block;
@@ -121,28 +157,55 @@ table {
     color: #505050;
 }
 
+/* estilo do slide playground */
+.container-slider-playground {
+    background-color:white;
+    border-radius: 0.5rem;
+    display: flex;
+    min-height: 80vh;
+    justify-content:space-between;
+    align-items:center;
+    width: 40%;
+    gap: 1rem;
+}
 .div-playground {
-    background-color:white;
-    padding-top: 1.0rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    position: relative;
     border-radius: 0.8rem;
-    list-style-type: none;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-right: 3.5rem;
-    width: 40.0rem;
-}
-.div-playground img{
-    border-radius: 0.8rem;
-    margin: auto;
     width: 30.0rem;
-    display: block;
-    padding: 0.7rem;
-    
+    display: flex;
+    justify-content: center;
+    align-items: top;    
 }
-.div-playground li{
+.text-playground {
+    padding-top: 26rem;
+}
+.slider-playground {
+    opacity: 0;
+    transition: opacity .2s;
+    position:absolute;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.on  {
+    opacity: 1;
+}
+#seta-avancar-playground, #seta-voltar-playground {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+#seta-avancar-playground {
+    transform: rotate(180deg);
+}
+
+#seta-avancar-playground img, #seta-voltar-playground img {
+    width: 100%;
+    height: 100%;
+
+}
+.text-playground h3{
     color: #236687;
     padding-block: 0.7rem;
     text-align: center;
@@ -150,7 +213,7 @@ table {
     font-weight: bold;
     font-family: Nunito;
 }
-.div-playground p {
+.text-playground p {
     text-align: center;
     margin: auto;
     display: block;
@@ -161,27 +224,58 @@ table {
     color: #505050;
 }
 
-.div-bercarios{
+/* estilo do slide bercarios */
+.container-slider-bercarios{
     background-color:white;
-    padding-top: 1.0rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border-radius: 0.8rem;
-    list-style-type: none;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-right: 3.5rem;
-    width: 40.0rem;
+    border-radius: 0.5rem;
+    display: flex;
+    min-height: 80vh;
+    justify-content:space-between;
+    align-items:center;
+    width: 40%;
+    gap: 1rem;
 }
-.div-bercarios img{
+.div-bercarios {
+    position: relative;
     border-radius: 0.8rem;
-    margin: auto;
     width: 30.0rem;
-    display: block;
-    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+       
 }
-.div-bercarios li{
+.text-bercarios {
+    padding-top: 26rem;
+}
+.slider-bercarios {
+    opacity: 0;
+    transition: opacity .2s;
+    position:absolute;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.on {
+    opacity: 1;
+}
+#seta-avancar-bercarios, #seta-voltar-bercarios {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+
+}
+#seta-avancar-bercarios {
+    transform: rotate(180deg);
+}
+
+#seta-avancar-bercarios img, #seta-voltar-bercarios img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-bercarios h3{
     color: #236687;
     padding-block: 0.7rem;
     text-align: center;
@@ -189,7 +283,7 @@ table {
     font-weight: bold;
     font-family: Nunito;
 }
-div.div-bercarios p{
+.text-bercarios p {
     text-align: center;
     margin: auto;
     display: block;
@@ -200,27 +294,59 @@ div.div-bercarios p{
     color: #505050;
 }
 
-.div-parkkids{
+/* estiliza o slide parkiids */
+
+.container-slider-parkkids{
     background-color:white;
-    padding-top: 1.0rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border-radius: 0.8rem;
-    list-style-type: none;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-right: 3.5rem;
-    width: 40.0rem;
+    border-radius: 0.5rem;
+    display: flex;
+    min-height: 80vh;
+    justify-content:space-between;
+    align-items:center;
+    width: 40%;
+    gap: 1rem;
 }
-.div-parkkids img{
+.div-parkkids {
+    position: relative;
     border-radius: 0.8rem;
-    margin: auto;
     width: 30.0rem;
-    display: block;
-    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+       
 }
-.div-parkkids li{
+.text-parkkids {
+    padding-top: 26rem;
+}
+.slider-parkkids {
+    opacity: 0;
+    transition: opacity .2s;
+    position:absolute;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.on {
+    opacity: 1;
+}
+#seta-avancar-parkkids, #seta-voltar-parkkids {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+
+}
+#seta-avancar-parkkids {
+    transform: rotate(180deg);
+}
+
+#seta-avancar-parkkids img, #seta-voltar-parkkids img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-parkkids h3{
     color: #236687;
     padding-block: 0.7rem;
     text-align: center;
@@ -228,7 +354,7 @@ div.div-bercarios p{
     font-weight: bold;
     font-family: Nunito;
 }
-.div-parkkids p{
+.text-parkkids p {
     text-align: center;
     margin: auto;
     display: block;
