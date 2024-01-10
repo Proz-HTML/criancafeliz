@@ -26,7 +26,7 @@ botao.textContent = 'Agenda a sua Visita';
 let banner = document.querySelector('#banner'); 
 
 banner.addEventListener('mouseover', () => {
-banner.textContent = 'Venha confirir nossa amada Estrutura';
+banner.textContent = 'Venha até a nossa amada Estrutura';
 
 })
 
